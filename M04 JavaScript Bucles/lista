@@ -1,0 +1,65 @@
+//var ListaDeCompras = [];
+//ListaDeCompras[3] = "tomates";
+//ListaDeCompras[1] = "lechuga";
+
+//console.log(ListaDeCompras.length);
+//ListaDeCompras[1];
+//var ElementoDelArray = ListaDeCompras[1];
+//console.log(ElementoDelArray);
+
+//var colores = ["Amarillo", "Azul"];
+//colores.push("Rojo");
+//colores.unshift("Verde");
+//colores.pop();
+//colores.shift();
+//console.log(colores);
+//console.log(colores.length);
+
+//var pintores =["Piccaso", "Velazquez", "Van Gogh", "Dali"];
+//var IncluyeDali = pintores.includes("Moneth");
+//console.log(IncluyeDali);
+
+//var numeros = [7, 6, 8, 9];
+//var cumplenCondicion = numeros.every((num) => {
+//   return num > 5;
+//}) 
+//console.log(cumplenCondicion);
+
+//var numeros = [1, 2, 3, 4];
+//numeros.forEach((num) => console.log (num));
+//numeros.forEach( num => {
+//    if(num === 3) {
+//        console.log(num);
+//    }
+//});
+//var masUno = numeros.map((num) => {
+//    return num + 1;
+//});
+//console.log(masUno);
+
+//var arr = {1, 2, 3, 4, 5};
+
+//for(var i = 0; i < arr.length; i++ ) {
+//    console.log{arr[i]};
+//};
+
+//function EncontrarLetraP(string){
+//    var letras = string.split("");
+
+//    for(let i = 0; i < letras.length; i++){
+//        if(letras[i] === "p"){
+//            console.log("Si contiene a P");
+//       }
+//    }
+//}
+
+//EncontrarLetraP("JavaScript");
+//EncontrarLetraP("Henry");
+
+var arr = [];
+
+while (arr.length < 5){
+    arr.push("BOOM");
+}
+
+console.log(arr);
